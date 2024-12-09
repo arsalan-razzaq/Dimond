@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Raleway", sans-serif;
+}
+h1,h4{
+    font-weight: 800;
+}
+.background-overlay {
+    background-color: #FFFFFF00;
+    background-image: url('./../img/bg/01-bg.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fm{
+    font-family: "Montserrat", sans-serif;
+    
+}
+.background-overlay-1 {
+    background-color: #FFFFFF00;
+    background-image: url('./../img/bg/01-bg.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-section {
+    width: 100%;
+    height: 300px;
+
+
+}
+.hero-section img{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    display: table;
+  
+}
+
+.btn {
+    width: max-content;
+    background-color: #FFBF94;
+    color: #000;
+    border-radius: 15px;
+}
+
+.properties {
+  
+    width: 100%;
+    border-radius: 35px;
+    background-color: #FFF;
+}
+
+.properties img {
+    width: 100px;
+    height: 100px;
+}
+
+.properties h4,
+.card-bg h4 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card-bg {
+    background-color: #fff;
+    height: 280px;
+    border-radius: 15px;
+}
+.test-bg {
+    background-color: #fff;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.card-bg img {
+    width: 80px;
+    height: 80px;
+}
+
+.token-img {
+    height: 180px;
+}
+
+.dot {
+    background: #FFC096;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    display: block;
+
+}
+
+li::marker {
+
+    color: #4CCA8D;
+}
+
+.start-trading {
+    width: 100%;
+    height: 300px;
+}
+
+.start-trading img {
+    height: 280px;
+}
+
+.rating img {
+    width: 16px;
+    height: 16px;
+}
+.img-circle{
+    width: 50px !important;
+height: 50px !important;
+ 
+border-radius: 50px;
+ 
+
+}
+.accordion-item , .accordion-button{
+    background-color: transparent !important;
+}
+.accordion-item{
+    border: none;
+}
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+    color: #000 !important;
+}
+.spacbar{
+    display: block;
+    height: 100px;
+    width: 100%;
+}
+@media (max-width: 1024px) {
+    .card-bg {
+        height: 220px;
+    }
+    .card-bg h4{
+        font-size: 1rem;
+    }
+    .card-bg p{
+        font-size: 0.8rem;
+    }
+    .accordion-button {
+        font-size: 14px; /* Adjust as needed */
+    }
+}
+@media (min-width: 768px) {
+    .spacbar{
+        height: 10px;
+    }
+    .hero-section img{
+        width: 100%;
+    }
+    .properties h4{
+        font-size: 16px;
+    }
+    .properties p{
+        font-size: 12px;
+    }
+    .properties img{
+        width: 55px;
+        height: 55px;
+    }
+    .hero-content.hero-section h1{
+        font-size: 25px;
+        
+    }
+    td{
+        font-size: 12px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    h6{
+        font-size: 14px;
+    }
+    .start-trading img {
+        height: 180px;
+    }
+    .img-circle{
+        height: 40px !important;
+        width: 40px !important;
+    }
+   .w-90-sm{
+    width: 90% !important;
+   }
+   .accordion-button {
+    font-size: 12px; /* Adjust as needed */
+}
+}
+
+@media (max-width: 426px) {
+    .hero-section , .start-trading{
+        height: auto !important;
+    }
+    .properties div{
+        flex-wrap: wrap;
+      
+   
+    }
+    .properties div div{ 
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    td{
+        font-size: 10px;
+    }
+    h1,h2,h3,h4,p{
+        /* text-align: center; */
+    }
+
+    .spacbar{
+        height: 10px !important;
+    }
+    .btn {
+        display: block;
+        margin: auto;
+        font-size: 12px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    h4,h3{
+        font-size: 16px;
+    }
+    h6{
+        font-size: 14px;
+    }
+    .img-circle{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .test-bg{
+        height: 210px !important;
+    }
+}
