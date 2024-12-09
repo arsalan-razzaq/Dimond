@@ -249,4 +249,7 @@ border-radius: 50px;
     .test-bg{
         height: 210px !important;
     }
+    .w-90-sm{
+        width: 100% !important;
+       }
 }
