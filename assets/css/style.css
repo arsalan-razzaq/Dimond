@@ -153,7 +153,7 @@ border-radius: 50px;
         font-size: 14px; /* Adjust as needed */
     }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .spacbar{
         height: 10px;
     }
