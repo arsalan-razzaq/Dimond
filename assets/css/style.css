@@ -5,6 +5,7 @@ body{
 }
 h1,h4{
     font-weight: 800;
+    font-size: 4rem;
 }
 .background-overlay {
     background-color: #FFFFFF00;
@@ -34,18 +35,24 @@ h1,h4{
 
 }
 .hero-section img{
-    height: 250px;
-    width: 250px;
+    height: 500px;
+    /* width: 250px; */
     margin: auto;
     display: table;
   
 }
+.hero-section p{
+    line-height: 1.9rem;
+}
 
 .btn {
-    width: max-content;
+    width: fit-content;
     background-color: #FFBF94;
     color: #000;
     border-radius: 15px;
+    font-weight: 500;
+    padding: 10px 30px;
+    font-weight: bolder;
 }
 
 .properties {
@@ -140,6 +147,16 @@ border-radius: 50px;
     width: 100%;
 }
 @media (max-width: 1024px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    .hero-section p{
+        line-height: 1.4rem;
+    }
+    
+    .hero-section img{
+        height: 400px;   
+    }
     .card-bg {
         height: 220px;
     }
