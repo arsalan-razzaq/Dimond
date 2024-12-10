@@ -157,6 +157,12 @@ border-radius: 50px;
 .faqs-img{
     height: 350px;
 }
+.rounded-4{
+   border-radius: 10px;
+}
+label{
+    font-weight: 700;
+}
 @media (max-width: 1024px) {
     h1{
         font-size: 2.5rem;
@@ -182,6 +188,9 @@ border-radius: 50px;
     }
     .accordion-button {
         font-size: 14px; /* Adjust as needed */
+    }
+    .faqs-img,img.m-auto.d-table{
+        height: 300px;
     }
 }
 @media (max-width: 768px) {
@@ -233,6 +242,10 @@ border-radius: 50px;
    .accordion-button {
     font-size: 12px; /* Adjust as needed */
 }
+.faqs-img,img.m-auto.d-table{
+    height: 250px;
+}
+
 }
 
 @media (max-width: 426px) {
@@ -283,4 +296,8 @@ border-radius: 50px;
     .w-90-sm{
         width: 100% !important;
        }
+
+       .faqs-img,img.m-auto.d-table{
+        height: 250px;
+    }
 }
