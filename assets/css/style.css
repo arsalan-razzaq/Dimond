@@ -5,7 +5,7 @@ body{
 }
 h1{
     font-weight: 800;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 h4{
     font-weight: 800;
@@ -94,7 +94,7 @@ h4{
 }
 
 .token-img {
-    height: 180px;
+    height: 250px;
 }
 
 .dot {
@@ -153,6 +153,9 @@ border-radius: 50px;
 .theme-text{
     color: #4CCA8D !important;
     font-weight: bolder;
+}
+.faqs-img{
+    height: 350px;
 }
 @media (max-width: 1024px) {
     h1{
