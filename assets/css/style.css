@@ -5,7 +5,7 @@ body{
 }
 h1{
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 h4{
     font-weight: 800;
@@ -117,7 +117,7 @@ li::marker {
 }
 
 .start-trading img {
-    height: 280px;
+    height: 380px;
 }
 
 .rating img {
